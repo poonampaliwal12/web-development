@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #e8491d;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #d4380d;
+}
+
+/* Features Section Styles */
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
