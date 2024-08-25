@@ -3,70 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1 class="logo">MyBrand</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="calculator">
+        <div id="display" class="calculator-display">0</div>
+        <div class="calculator-buttons">
+            <!-- Row 1 -->
+            <button class="btn" id="clear">C</button>
+            <button class="btn" id="divide">/</button>
+            <button class="btn" id="multiply">*</button>
+            <button class="btn" id="delete">DEL</button>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Welcome to MyBrand</h2>
-            <p>Your success, our commitment</p>
-            <a href="#services" class="btn">Get Started</a>
-            <!-- New Button for JavaScript Demo -->
-            <button id="alertButton" class="btn">Click Me</button>
-        </div>
-    </section>
+            <!-- Row 2 -->
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn" id="subtract">-</button>
 
-    <!-- Features Section -->
-    <section id="about" class="features">
-        <div class="container">
-            <h2>Why Choose Us?</h2>
-            <div class="feature">
-                <h3>Quality Service</h3>
-                <p>We deliver top-notch services to help your business grow.</p>
-            </div>
-            <div class="feature">
-                <h3>Expert Team</h3>
-                <p>Our team consists of industry experts with years of experience.</p>
-            </div>
-            <div class="feature">
-                <h3>Customer Support</h3>
-                <p>We provide 24/7 support to ensure your satisfaction.</p>
-            </div>
-        </div>
-    </section>
+            <!-- Row 3 -->
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn" id="add">+</button>
 
-    <!-- Footer Section -->
-    <footer id="contact">
-        <div class="container">
-            <p>&copy; 2024 MyBrand. All Rights Reserved.</p>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </footer>
+            <!-- Row 4 -->
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn" id="equals">=</button>
 
-    <!-- Link to JavaScript File -->
+            <!-- Row 5 -->
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
-
